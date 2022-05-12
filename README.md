@@ -57,15 +57,17 @@ lvl:  133.49 index_ 0
 This is a daraft from a console. You may see the example of a program exectution.
 
 ## Deployment
-This is a raw project and it might be complicated to start it on your machine.
+Sigmabot use OKEX REST API for trading. At the moment it is the only supported trading platform. 
 There are 3 files, two of which works togeter and the downloader is separate from them.
 You will need to have them both running. 
 ### Prerequisites
 This program designed to run on the machine with python 3.8-3.10
 You need to install libraries like numpy, pandas etc.
 
-We need a historical(master) data. This specific program surves the purpose of data collection using REST Api.
+We need a historical(master) data. 'downloader.py' surves the purpose of data collection using REST API.
 Records BTC, LTC, MATIC price and ofcourse timestamp. Some other data for future research.
+It has to be started before you run the main program.
+To use it for trading you need okex api key.
 
 ## Running the tests
 First you need to search for some spesified rows in a program and configure 
