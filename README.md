@@ -18,8 +18,8 @@ Decision making in for such method is based on the solution of the disorder prob
 Step by step algorithm is the following:
 ```
 For each direction of the price action we detect abnormalities in speed rate.
-Determine  the frequency the outlier occurrence for a given timeframe.
-Based on the frequencies from upward and downward movement we produce frequency distribution table
+Determine  the frequency of the outlier occurrence for a given timeframe.
+Based on the frequencies from upward and downward movement we produce a frequency distribution table
 Transform statistical data in a usable form by filtering conditional terms (predefined parameters) 
 for the frequency distribution table, while satisfying definition consider we are at the end of a function price spike
 otherwise the current point is not at the end of the price hike or no spikes has occurred for the frequency. 
