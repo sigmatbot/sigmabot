@@ -1,0 +1,2 @@
+# sigmabot
+cryptocurruency trading bot 
