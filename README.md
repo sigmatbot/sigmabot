@@ -75,14 +75,14 @@ the path to to your folder.
 3) start  'downloader.py' it and give 14-20 hours to absorb enough information
 4) run execute.py it will start to produce output in a console
 
-##Contributing
+## Contributing
 Interested in contributing to the sigmabot project? Thanks so much for your interest! 
 Contributions from open-source developers are greatly appreciated. My contact is sigmatbot@gmail.com
 
-##Sponsors
-Upon your descision your sponsorship can be reflected here.
+## Sponsors
+Upon your decision your sponsorship can be reflected here.
 
 
-##License
+## License
 Sigmabot is a free and open-source software licensed under the GNU General Public License v3.0. 
 
