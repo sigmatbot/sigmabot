@@ -14,6 +14,8 @@ Unlike parametric or conditional trading strategies for trading bots who use MA 
 Sigmabot uses CLT(central limit theorem) or Six Sigma to define the function state in a real time.
 
 Decision making in for such method is based on the solution of the disorder problem. 
+The implementation of analysis  is targeted towards bitcoin because it has the biggest market cap and
+there is a strong correlation between bitcoin and other cryptocurrencies functions.
 
 Step by step algorithm is the following:
 ```
@@ -84,6 +86,12 @@ Contributions from open-source developers are greatly appreciated. My contact is
 ## Sponsors
 Upon your decision your sponsorship can be reflected here.
 
+## Resources
+Lean Six Sigma in Service applications and case studies edited by Sandra L. Furterer ISBN 978-1-4200-7888-6
+
+Python for Finance Yves Hilpsch O'REILLY ISBN 978-1-491-94528-5
+
+levashkin.com
 
 ## License
 Sigmabot is a free and open-source software licensed under the GNU General Public License v3.0. 
