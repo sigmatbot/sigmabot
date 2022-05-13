@@ -30,6 +30,9 @@ Finally we record information for control and future analysis.
 ```
 
 ### Resutls
+The pictures show what moments this algorithm can find. 
+It searches exactly the end of the hikes for the downward trend. 
+And works for different functions with a degree certainty. 
 
 ![big](https://user-images.githubusercontent.com/105378638/168127133-fec516ea-b691-4beb-8142-cd307b6b8d50.png)
 The image shows the order point with the green dot and sell order with the red dot.
