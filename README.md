@@ -1,6 +1,6 @@
 # sigmabot
 cryptocurruency trading bot 
-"Sigmatbot" or simply "Sigmabot" is a project aimed to trade based on a real time data.
+"Sigmatbot" or simply "Sigmabot" is a project aimed to trade based on the real time data.
 
 ## Getting Started
 
