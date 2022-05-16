@@ -1,38 +1,43 @@
 # sigmabot
 cryptocurruency trading bot 
-"Sigmatbot" or simply "Sigmabot" is a project aimed to trade based on the real time data.
+"Sigmabot" is a project aimed to trade based on the real time data.
 
 ## Getting Started
 
-The purpose of this release is to demonstrate capabilities of the probabilistic approach 
-in the field of analysis of a price action for trading.
-Such algorithm can be used for the search of optimal entry point for trading for long or short positions or to red flag
-opened positions during the price hikes.
+The purpose of this release is to demonstrate the capabilities of a frequency analysis and probabilistic approach 
+in the field of the analysis of a price action for trading. Traditional algorythmic trading bots use indicators - Movig average(MA), Relative strength index(RSI) and templates of candlestic patterns which is a popular and simple solution for the integration.
+The problem of such approach is that the analysis is performed using the tools which are easy for humans and do not invovlve the techniques like Markov process and frequency characteristics of a function etc.  The probabilistic research is a powerful tool but it reqires complex computations, they work very fast thus impossible for humans to use  in a real time. But a computer can be programmed and it is capable of using the advantegeous techniques.
 
-### Key idea
+Currentlry Sigmabot has only one probability calculus method.
+The core principle is the definition of the function based on the function propagation. Such approach is superiour to the traditional technichniques beecause they are very demanding for the historical data and sigmabot relies upon as little as 10 hours of the market data. Which makes it very flexible. Besides the solution of the disorder problem produce a reliable result. 
+Such algorithm can be used for the search of optimal entry point for trading for long or short positions as well as to red flag
+opened positions during spontaneous price hikes. MA, RSI and other technical analysis tools are incapable to produce such results.
+
+### Principle
 Unlike parametric or conditional trading strategies for trading bots who use MA and RSI,
 Sigmabot uses CLT(central limit theorem) or Six Sigma to define the function state in a real time.
 
 Decision making in for such method is based on the solution of the disorder problem. 
 The implementation of analysis  is targeted towards bitcoin because it has the biggest market cap and
-there is a strong correlation between bitcoin and other cryptocurrencies functions.
+there is a strong correlation between the functions of bitcoin and altcoins.
 
 Step by step algorithm is the following:
 ```
 For each direction of the price action we detect abnormalities in speed rate.
 Determine  the frequency of the outlier occurrence for a given timeframe.
-Based on the frequencies from upward and downward movement we produce a frequency distribution table
+Based on the frequencies from upward and downward movement we produce a frequency distribution table.
 Transform statistical data in a usable form by filtering conditional terms (predefined parameters) 
 for the frequency distribution table, while satisfying definition consider we are at the end of a function price spike
 otherwise the current point is not at the end of the price hike or no spikes has occurred for the frequency. 
 We take the decision to buy, sell or stall(in case of a risk) solely by the definition of the present function.
 Finally we record information for control and future analysis.
 ```
+note: we can find different points of the functions by setting different parameters.
 
 ### Resutls
-The pictures show what moments this algorithm can find. 
-It searches exactly the end of the hikes for the downward trend. 
-And works for different functions with a degree certainty. 
+The pictures shows the moments this algorithm can find. 
+In this particular case it searches the end of the hikes for the downward trend. 
+It works  with the degree certainty for different functions. 
 
 ![big](https://user-images.githubusercontent.com/105378638/168127133-fec516ea-b691-4beb-8142-cd307b6b8d50.png)
 The image shows the order point with the green dot and sell order with the red dot.
@@ -59,14 +64,15 @@ lvl:  132.49  SL increment:  1
 order closed in profit
 lvl:  133.49 index_ 0
 ```
-This is a daraft from a console. You may see the example of a program exectution.
+This is a daraft from the console. You may see the example of a program exectution.
 
 ## Deployment
-Sigmabot use OKEX REST API for trading. At the moment it is the only supported trading platform. 
+Sigmabot use OKEX REST API for trading
+https://github.com/jane-cloud/Open-API-SDK-V5 . At the moment this is the only supported trading platform. 
 There are 3 files, two of which works togeter and the downloader is separate from them.
 You will need to have them both running. 
 ### Prerequisites
-This program designed to run on the machine with python 3.8-3.10
+This program is designed to run on the machine with python 3.8-3.10
 You need to install libraries like numpy, pandas etc.
 
 We need a historical(master) data. 'downloader.py' surves the purpose of data collection using REST API.
@@ -87,7 +93,7 @@ Interested in contributing to the sigmabot project? Thanks so much for your inte
 Contributions from open-source developers are greatly appreciated. My contact is sigmatbot@gmail.com
 
 ## Sponsors
-Upon your decision your sponsorship can be reflected here.
+Upon your decision the sponsorship can be reflected here.
 
 ## Resources
 Lean Six Sigma in Service applications and case studies edited by Sandra L. Furterer ISBN 978-1-4200-7888-6
