@@ -100,8 +100,6 @@ Lean Six Sigma in Service applications and case studies edited by Sandra L. Furt
 
 Python for Finance Yves Hilpsch O'REILLY ISBN 978-1-491-94528-5
 
-levashkin.com
-
 ## License
 Sigmabot is a free and open-source software licensed under the GNU General Public License v3.0. 
 
