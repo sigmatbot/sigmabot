@@ -330,7 +330,7 @@ import pandas as pd
 pd.options.mode.chained_assignment = None  # default='warn'
 
 def save(df_ar):
-    folder = '/Users/a1u/Downloads/s/store3.h5'
+    folder = '/path/store3.h5'
     store = pd.HDFStore(folder)
     for i in range(0,len(df_ar)):
         name='df' + str(i)
