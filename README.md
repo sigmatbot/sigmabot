@@ -5,7 +5,7 @@ cryptocurruency trading bot
 ## Getting Started
 
 The purpose of this release is to demonstrate the capabilities of a frequency analysis and probabilistic approach 
-in the field of the analysis of a price action for trading. Traditional algorythmic trading bots use indicators - Movig average(MA), Relative strength index(RSI) and templates of candlestic patterns which is a popular and simple solution for the integration.
+in the field of the analysis of the price action for trading. Traditional algorythmic trading bots use indicators - Movig average(MA), Relative strength index(RSI) and templates of candlestic patterns which is a popular and simple solution for the integration.
 The problem of such approach is that the analysis is performed using the tools which are easy for humans and do not invovlve the techniques like Markov process and frequency characteristics of a function etc.  The probabilistic research is a powerful tool but it reqires complex computations, they work very fast thus impossible for humans to use  in a real time. But a computer can be programmed and it is capable of using the advantegeous techniques.
 
 Currentlry Sigmabot has only one probability calculus method.
@@ -16,6 +16,7 @@ opened positions during spontaneous price hikes. MA, RSI and other technical ana
 ### Principle
 Unlike parametric or conditional trading strategies for trading bots who use MA and RSI,
 Sigmabot uses CLT(central limit theorem) or Six Sigma to define the function state in a real time.
+Such approach is also called a price action strategy in trading.
 
 Decision making in for such method is based on the solution of the disorder problem. 
 The implementation of analysis  is targeted towards bitcoin because it has the biggest market cap and
