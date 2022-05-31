@@ -18,7 +18,7 @@ Unlike parametric or conditional trading strategies for trading bots who use MA 
 Sigmabot uses CLT(central limit theorem) or Six Sigma to define the function state in a real time.
 Such approach is also called a price action strategy in trading.
 
-Decision making in for such method is based on the solution of the disorder problem. 
+Decision making in such method is based on the solution of the disorder problem. 
 The implementation of analysis  is targeted towards bitcoin because it has the biggest market cap and
 there is a strong correlation between the functions of bitcoin and altcoins.
 
