@@ -37,7 +37,7 @@ note: we can find different points of the functions by setting different paramet
 
 ### Resutls
 The pictures shows the moments this algorithm can find. 
-In this particular case it searches the end of the hikes for the downward trend. 
+In this particular case it searches the end of hikes for the downward trend. 
 It works  with the degree certainty for different functions. 
 
 ![big](https://user-images.githubusercontent.com/105378638/168127133-fec516ea-b691-4beb-8142-cd307b6b8d50.png)
@@ -65,7 +65,7 @@ lvl:  132.49  SL increment:  1
 order closed in profit
 lvl:  133.49 index_ 0
 ```
-This is a daraft from the console. You may see the example of a program exectution.
+This is a daraft from the console. You may see the example of the program exectution.
 
 ## Deployment
 Sigmabot use OKEX REST API for trading
@@ -76,7 +76,7 @@ You will need to have them both running.
 This program is designed to run on the machine with python 3.8-3.10
 You need to install libraries like numpy, pandas etc.
 
-We need a historical(master) data. 'downloader.py' surves the purpose of data collection using REST API.
+We need a historical(master) data. 'downloader.py' surves the purpose of a data collection using REST API.
 Records BTC, LTC, MATIC price and ofcourse timestamp. Some other data for future research.
 It has to be started before you run the main program.
 To use it for trading you need okex api key.
