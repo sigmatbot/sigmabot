@@ -29,7 +29,7 @@ Determine  the frequency of the outlier occurrence for a given timeframe.
 Based on the frequencies from upward and downward movement we produce a frequency distribution table.
 Transform statistical data in a usable form by filtering conditional terms (predefined parameters) 
 for the frequency distribution table, while satisfying definition consider we are at the end of a function price spike
-otherwise the current point is not at the end of the price hike or no spikes has occurred for the frequency. 
+otherwise the current level is not at the end of the price hike or no spikes has occurred for the frequency. 
 We take the decision to buy, sell or stall(in case of a risk) solely by the definition of the present function.
 Finally we record information for control and future analysis.
 ```
