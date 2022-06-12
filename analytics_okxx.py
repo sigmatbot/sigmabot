@@ -2,6 +2,7 @@
 import os
 import numpy as np
 import pandas as pd
+pd.options.mode.chained_assignment = None  # default='warn'
 from datetime import datetime
 from decimal import Decimal
 from datetime import timedelta
@@ -326,8 +327,6 @@ def get_velocity_outliers(df_):
    oultiers_=find_outlier_position(lcl,ucl,data_)
    origin=determine_interval(array)
 
-import pandas as pd
-pd.options.mode.chained_assignment = None  # default='warn'
 
 def save(df_ar):
     folder = '/path/store3.h5'
