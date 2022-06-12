@@ -38,7 +38,7 @@ note: we can find different points of the functions by setting different paramet
 ### Resutls
 The pictures shows the moments this algorithm can find. 
 In this particular case it searches the end of hikes for the downward trend. 
-It works  with the degree certainty for different functions. 
+It works  with the degree of certainty for different functions. 
 
 ![big](https://user-images.githubusercontent.com/105378638/168127133-fec516ea-b691-4beb-8142-cd307b6b8d50.png)
 The image shows the order point with the green dot and sell order with the red dot.
