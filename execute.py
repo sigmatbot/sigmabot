@@ -1,7 +1,7 @@
 # The "Sigmatbot" or simply "Sigmabot" is a project aimed to trade based on a real time data
 #The purpose of this release is to demonstrate capabilities of probabilistic approach in
 #price action analysis and entry point selection.
-#Such algorythm can be used for price to red flag trading for long or short positions during
+#Such algorithm can be used for price to red flag trading for long or short positions during
 #price hikes.
 
 #This program runs a sequence of algorythms.
